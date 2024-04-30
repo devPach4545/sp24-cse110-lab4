@@ -46,3 +46,7 @@ d. `false` because this is strong comparision and it is comparing an integer and
 e. `false` because true maps to 1 and 1 != 2.
 
 f. `true` because Boolean 2 is a 1 and true is 1. We have a strong type comparision and both are non zero. 
+
+16. This function will return an array `[2, 4, 6]`. So, `dosomething` gets passed as parameter in `modifyArray` and then in the for loop in `modifyArray`, newArr gets the return value of `dosomething`, `dosomething` returns multiple of 2s. So, first array[0] = 1 and 1 * 2 = 2. And then 2 gets passed into `dosomething` and it will repeat for 3 times.
+
+17. 
