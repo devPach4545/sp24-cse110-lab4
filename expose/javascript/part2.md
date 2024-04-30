@@ -49,4 +49,4 @@ f. `true` because Boolean 2 is a 1 and true is 1. We have a strong type comparis
 
 16. This function will return an array `[2, 4, 6]`. So, `dosomething` gets passed as parameter in `modifyArray` and then in the for loop in `modifyArray`, newArr gets the return value of `dosomething`, `dosomething` returns multiple of 2s. So, first array[0] = 1 and 1 * 2 = 2. And then 2 gets passed into `dosomething` and it will repeat for 3 times.
 
-17. 
+19. It will print `1,4,3,2`. First, it will print all the asynchrounous ones. Which are 1 and 4. Then, it will print 3 because it has 0 ms timeout. And it will wait for 1 second and at the end 2 will be printed.
